@@ -35,5 +35,6 @@ programa {
     }
 }
 
-// No Portugol Studio, a função leia() é seguida pelo nome da variável na qual o valor lido será armazenado, sem parênteses. Aqui está a forma correta:
-    // leia(largura)
+// No Portugol Studio, a função leia() é seguida pelo nome da variável na qual o valor lido será armazenado, sem parênteses. 
+  // Aqui está a forma correta:
+        // leia(largura)
