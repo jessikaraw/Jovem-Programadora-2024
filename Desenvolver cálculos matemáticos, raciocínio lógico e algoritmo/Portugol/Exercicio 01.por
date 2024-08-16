@@ -1,37 +1,39 @@
-// Quest„o 1.Uma imobili·ria vende apenas terrenos retangulares. 
-// FaÁa um algoritmo para ler as dimensıes de um terreno e depois exibir a ·rea do terreno. 
+// Quest√£o 1.Uma imobili√°ria vende apenas terrenos retangulares. 
+// Fa√ßa um algoritmo para ler as dimens√µes de um terreno e depois exibir a √°rea do terreno. 
 
-    // Para criar um algoritmo que lÍ as dimensıes de um terreno retangular e exibe a sua ·rea, podemos seguir os seguintes passos:
+    // Para criar um algoritmo que l√™ as dimens√µes de um terreno retangular e exibe a sua √°rea, podemos seguir os seguintes passos:
 
-    // InÌcio do Algoritmo: Declaramos o inÌcio do algoritmo e definimos as vari·veis que ser„o utilizadas para armazenar as dimensıes do terreno.
+    // In√≠cio do Algoritmo: Declaramos o in√≠cio do algoritmo e definimos as vari√°veis que ser√£o utilizadas para armazenar as dimens√µes do terreno.
 
-    // Leitura de Dados: Pedimos ao usu·rio para inserir os valores correspondentes aos lados do terreno (largura e profundidade).
+    // Leitura de Dados: Pedimos ao usu√°rio para inserir os valores correspondentes aos lados do terreno (largura e profundidade).
 
-    // C·lculo da ¡rea: Calculamos a ·rea do terreno multiplicando a largura pela profundidade.
+    // C√°lculo da √Årea: Calculamos a √°rea do terreno multiplicando a largura pela profundidade.
 
-    // ExibiÁ„o do Resultado: Mostramos o resultado do c·lculo da ·rea para o usu·rio.
+    // Exibi√ß√£o do Resultado: Mostramos o resultado do c√°lculo da √°rea para o usu√°rio.
 
     // Fim do Algoritmo: Encerramos o algoritmo.
 
-    // Aqui est· uma representaÁ„o simplificada do algoritmo em Portugol:
+    // Aqui est√° uma representa√ß√£o simplificada do algoritmo em Portugol:
 
 programa {
     funcao inicio() {
         real largura, profundidade, area
         
-        // Solicita a largura do terreno ao usu·rio
+        // Solicita a largura do terreno ao usu√°rio
         escreva("Digite a largura do terreno (em metros): ")
         leia(largura)
 
-        // Solicita a profundidade do terreno ao usu·rio
+        // Solicita a profundidade do terreno ao usu√°rio
         escreva("Digite a profundidade do terreno (em metros): ")
         leia(profundidade)
 
-        // Calcula a ·rea do terreno
+        // Calcula a √°rea do terreno
         area <- largura * profundidade
 
-        // Exibe a ·rea do terreno
-        escreva("A ·rea do terreno È: ", area, " m2\n")
+        // Exibe a √°rea do terreno
+        escreva("A √°rea do terreno √©: ", area, " m2\n")
     }
 }
 
+// No Portugol Studio, a fun√ß√£o leia() √© seguida pelo nome da vari√°vel na qual o valor lido ser√° armazenado, sem par√™nteses. Aqui est√° a forma correta:
+    // leia(largura)
